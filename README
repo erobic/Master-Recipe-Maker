@@ -1,0 +1,26 @@
+This is a PHP project which can be used to generate cooking recipes from a list of ingredients. I assume you know how to do some basic tasks like: importing databases etc.
+
+SETUP
+
+1. If you are using lampp, Copy "YourRecipes" folder to the /opt/lampp/htdocs folder.
+If you are using wamp, copy "YourRecipes" folder to www folder. 
+
+2. Create a database called "YourRecipes". (I use phpmyadmin to create databases.)
+
+3. Import "YourRecipes.sql" from the folder "YourRecipes" to your database.
+
+4. Browse http://localhost/YourRecipes
+
+USING THE PROGRAM
+
+There are 3 things you can do with the program. 
+
+1. Train the program with recipes.
+
+2. Generate recipes by specifying a list of ingredients.
+
+3. Provide feedback after the recipe is generated.
+
+NOTE
+
+I haven't trained the program much. I just provided a few recipes of tea and coffee to check that the program indeed works. 
